@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "API Cuci Sepatu - Add Item",
+    "_postman_id": "c7a1a9f7-9a2f-4d3d-9a8a-1234567890ab",
+    "description": "Collection with a single request to add a new shoe cleaning item (POST /items)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Add Item",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"id\": \"item-123\",\n  \"namaPelanggan\": \"Putra\",\n  \"jenisSepatu\": \"Nike Air Max\",\n  \"layanan\": \"Cuci Biasa\",\n  \"harga\": 45000,\n  \"status\": \"Menunggu\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3500/items",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3500",
+          "path": [
+            "items"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
