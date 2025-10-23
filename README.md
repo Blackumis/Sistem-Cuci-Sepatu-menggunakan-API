@@ -161,4 +161,4 @@ npm run dev
 
 Link deploy (Vercel)
 
-
+https://sistem-cuci-sepatu-menggunakan-api.vercel.app/
