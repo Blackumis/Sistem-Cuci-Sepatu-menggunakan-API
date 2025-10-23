@@ -1,7 +1,6 @@
 # API Sistem Cuci Sepatu
 
-Deskripsi umum
-API ini adalah layanan backend sederhana untuk mengelola daftar sepatu yang sedang menjalani layanan cuci, . Dibangun menggunakan Node.js, Express, dan Supabase sebagai sistem basis data.
+API ini adalah layanan sederhana untuk mengelola daftar sepatu yang sedang menjalani layanan cuci, . Dibangun menggunakan Node.js, Express, dan Supabase sebagai sistem basis data.
 
 Tujuan dan fitur utama
 - Menyediakan endpoint CRUD untuk sistem cuci sepatu 
